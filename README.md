@@ -86,17 +86,6 @@
 - Стандарт C99 или новее
 - Windows/Linux/macOS
 
-### Сборка:
-# Вручную
-gcc -std=c99 -o music_albums main.c database.c fileio.c utils.c
-
-# Или используйте compile.bat (Windows)
-compile.bat
-Запуск:
-
-./music_albums      # Linux/macOS
-music_albums.exe    # Windows
----
 
  Использование
 
