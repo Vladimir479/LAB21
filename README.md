@@ -78,18 +78,6 @@
 
 ---
 
-Структура данных альбома:
-
-C
-
-typedef struct {
-    char title[50];           // Название альбома
-    int release_year;         // Год выпуска
-    char style[30];           // Музыкальный стиль
-    int track_count;          // Количество треков
-    int duration_minutes;     // Продолжительность в минутах
-} MusicAlbum;
----
 
 ##  Сборка и запуск
 
