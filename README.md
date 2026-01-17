@@ -87,7 +87,19 @@
 - Windows/Linux/macOS
 
 
- Использование
+### **Инструкция по сборке:**
+
+```bash
+# 1. Создайте файл с исходным кодом
+# (скопируйте код из репозитория в файл main.c)
+
+# 2. Компиляция
+gcc -std=c99 -o employees main.c
+
+# 3. Запуск
+./employees        # Linux/macOS
+employees.exe      # Windows
+```
 
 Пример работы:
 
