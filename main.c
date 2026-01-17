@@ -28,10 +28,10 @@ int main() {
     int count = 0;
     int choice;
     
-    // Загрузка данных при старте
+    
     count = load_from_file(albums, MAX_PROJECTS, FILENAME);
     
-    // Если данных нет, создаем тестовые
+   
     if (count == 0) {
         printf("Создание тестовых данных...\n");
         count = create_test_data(albums);
