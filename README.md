@@ -94,11 +94,11 @@
 # (скопируйте код из репозитория в файл main.c)
 
 # 2. Компиляция
-
+gcc -std=c99 -o music_albums main.c
 
 # 3. Запуск
-
-
+./music_albums # Linux/macOS
+music_albums.exe # Windows
 ```
 
 ### **Использование:**
